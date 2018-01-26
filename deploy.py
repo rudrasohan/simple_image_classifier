@@ -1,10 +1,6 @@
 import torch
-
 from torch.autograd import Variable 
 from get_data import *
-
-
-
 
 #load model
 model = torch.load('img_classify.pt')
