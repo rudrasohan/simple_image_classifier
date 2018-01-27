@@ -6,7 +6,7 @@ import torch.nn.functional as F
 class Net(nn.Module):
 	def __init__(self):
 		super(Net, self).__init__()
-		# 1 input image channel, 6 output channels, 5x5 square convolution
+		# 3 input image channel, 6 output channels, 5x5 square convolution
 		self.conv1 = nn.Conv2d(3, 6, 5)
 		# 6 input image channel, 16 output channels, 5x5 square convolution
 		self.conv2 = nn.Conv2d(6, 16, 5)
